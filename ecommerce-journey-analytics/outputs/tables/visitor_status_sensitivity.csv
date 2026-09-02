@@ -1,0 +1,5 @@
+analysis_scope,visitor_status,sessions,transaction_sessions,transaction_session_rate_pct
+all_visitors,new,1407580,7524,0.5345344491964933
+all_visitors,returning,354095,6773,1.9127635239130742
+excluding_top_0_1_percent,new,1406313,7481,0.5319583904863284
+excluding_top_0_1_percent,returning,307500,4790,1.5577235772357723

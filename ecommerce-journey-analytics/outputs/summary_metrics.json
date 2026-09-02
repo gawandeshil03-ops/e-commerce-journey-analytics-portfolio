@@ -1,0 +1,52 @@
+{
+  "data": {
+    "raw_event_rows": 2756101,
+    "clean_event_rows": 2755641,
+    "duplicate_rows_removed": 460,
+    "visitors": 1407580,
+    "items": 235061,
+    "transactions": 17672,
+    "min_event_time_utc": "2015-05-03T03:00:04.384000",
+    "max_event_time_utc": "2015-09-18T02:59:47.788000"
+  },
+  "sessions": {
+    "total_sessions": 1761675,
+    "one_session_visitor_share_pct": 87.09607979653022,
+    "transaction_session_rate_pct": 0.8115571827947834
+  },
+  "funnel": {
+    "view_sessions": 1755781,
+    "ordered_view_to_cart_sessions": 35832,
+    "ordered_full_funnel_sessions": 10411,
+    "ordered_view_to_cart_rate_pct": 2.040801216096996,
+    "ordered_cart_to_transaction_rate_pct": 29.055034605938825,
+    "ordered_view_to_transaction_rate_pct": 0.5929554995754026,
+    "cart_without_transaction_sessions": 31992,
+    "same_session_cart_to_transaction_rate_pct": 27.165103360349693
+  },
+  "visitor_status": {
+    "new_transaction_session_rate_pct": 0.5345344491964933,
+    "returning_transaction_session_rate_pct": 1.9127635239130742,
+    "returning_to_new_rate_ratio": 3.5783727817511495,
+    "top_0_1_percent_transaction_session_share_pct": 14.17080506399944
+  },
+  "retention": {
+    "weighted_w1_retention_rate_pct": 3.262890668115708,
+    "view_only_w1_retention_rate_pct": 3.167344761519985,
+    "cart_no_purchase_w1_retention_rate_pct": 7.0923314751487325,
+    "purchased_w1_retention_rate_pct": 8.926000575871004
+  },
+  "cart_recovery": {
+    "eligible_visitors_7d": 27784,
+    "recovered_visitors_7d": 1369,
+    "recovery_rate_7d_pct": 4.927296285632019,
+    "average_weekly_eligible_visitors": 1483.3684210526317
+  },
+  "experiment": {
+    "relative_mde_pct": 25.0,
+    "absolute_mde_percentage_points": 1.2318240714080047,
+    "sample_size_per_arm": 5416,
+    "total_sample_size": 10832,
+    "estimated_calendar_weeks": 9
+  }
+}

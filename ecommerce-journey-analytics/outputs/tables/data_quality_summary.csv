@@ -1,0 +1,2 @@
+raw_event_rows,clean_event_rows,duplicate_rows_removed,duplicate_group_count,rows_with_missing_required_fields,invalid_event_type_rows,transactions_without_id,non_transactions_with_id,visitors,items,transactions,min_event_time_utc,max_event_time_utc
+2756101,2755641,460,458,0,0,0,0,1407580,235061,17672,2015-05-03 03:00:04.384,2015-09-18 02:59:47.788

@@ -1,0 +1,8 @@
+PASS: source grain, required fields, and event rules
+PASS: funnel denominators and stage ordering
+PASS: right-censored cart-recovery windows
+PASS: session-gap sensitivity remains below 0.1 percentage point
+PASS: exported summary matches database results
+PASS: required tables and figures exist
+PASS: notebook executed top to bottom without errors
+PASS: headline README claims are present
