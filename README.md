@@ -13,37 +13,66 @@
 
 </div>
 
+---
+
 ## Project Overview
 
 A portfolio-ready repository for E-commerce Journey Analytics, documented from the files and technologies present in the project.
 
 ## Problem / Objective
 
-Retail and e-commerce analytics.
+**Application:** Retail and e-commerce analytics.
 
-## Project Component Map
+This README is generated from the actual project folder. Technologies, components, inputs, outputs, and architecture claims are included only when supported by repository evidence.
+
+## Project Working Component Map
 
 ```mermaid
 flowchart TD
-    P["Project"]
-    P --> N0["Data Files"]
-    P --> N1["Structured Data"]
-    P --> N2["Python Processing"]
-    P --> N3["Notebook Analysis"]
-    P --> N4["SQL Layer"]
+    P["Project Working Components"]
+    P --> G1["Inputs: CSV datasets / Structured data files"]
+    P --> G2["Processing: Python scripts"]
+    P --> G3["Data Layer: SQL scripts / data layer"]
+    P --> G4["Analytics: Jupyter notebooks"]
 ```
 
-This is intentionally a component map, not an invented workflow. The project files verify these components, but do not provide enough evidence to infer their execution order safely.
+The repository verifies these working components. A sequence is intentionally not invented where the project documentation does not prove one.
+
+## Verified Working Components
+
+| Layer / Area | Verified Evidence |
+|--------------|-------------------|
+| Inputs | CSV datasets, Structured data files |
+| Processing | Python scripts |
+| Data / Storage | SQL scripts / data layer |
+| Analytics / Models | Jupyter notebooks |
 
 ## Technology Stack
 
-| Technology | Evidence / Purpose |
-|------------|--------------------|
+| Technology | Evidence |
+|------------|----------|
 | Python | Verified from project files |
 | Jupyter Notebook | Verified from project files |
 | SQL | Verified from project files |
 | CSV | Verified from project files |
 | JSON | Verified from project files |
+
+## Core Repository Files
+
+| File | Type |
+|------|------|
+| `ecommerce-journey-analytics\data\README.md` | MD |
+| `ecommerce-journey-analytics\docs\experiment_design.md` | MD |
+| `ecommerce-journey-analytics\notebooks\01_ecommerce_journey_analysis.ipynb` | IPYNB |
+| `ecommerce-journey-analytics\outputs\figures\01_funnel_conversion.png` | PNG |
+| `ecommerce-journey-analytics\outputs\figures\02_weekly_metrics.png` | PNG |
+| `ecommerce-journey-analytics\outputs\figures\03_visitor_status_conversion.png` | PNG |
+| `ecommerce-journey-analytics\outputs\figures\04_cohort_retention.png` | PNG |
+| `ecommerce-journey-analytics\outputs\figures\05_cart_recovery.png` | PNG |
+| `ecommerce-journey-analytics\outputs\summary_metrics.json` | JSON |
+| `ecommerce-journey-analytics\outputs\tables\activation_retention_w1.csv` | CSV |
+| `ecommerce-journey-analytics\outputs\tables\cart_recovery_curve.csv` | CSV |
+| `ecommerce-journey-analytics\outputs\tables\cart_recovery_weekly_eligibility.csv` | CSV |
 
 ## Project Structure
 
@@ -53,18 +82,28 @@ p-1033810378/
   - ecommerce-journey-analytics/
 `
 
-## Methodology
+## How the Project Is Organized
 
-This recruiter-facing documentation was generated from files and technologies actually present in the project. Unsupported technologies, business results, deployment claims, and performance metrics are intentionally omitted.
+The architecture/workflow visual above is the primary working view of this project. When an existing architecture or workflow image is present, that project asset is used directly. Otherwise, the automation derives a Mermaid visual only from verified project documentation and artifacts.
 
-## Suggested Enhancements
+## Methodology & Documentation Policy
 
-Potential future improvements may include stronger automated testing, packaging, deployment, monitoring, or additional documentation where appropriate to the actual project.
+- Local project files are the source of truth.
+- Existing project README content is preserved under `docs/ORIGINAL_README.md` in the safe publication copy when available.
+- Technology badges are created only from detected project evidence.
+- Unsupported databases, cloud services, APIs, models, metrics, deployment claims, users, clients, revenue, savings, or business outcomes are omitted.
+- When workflow order cannot be proven, the visual is explicitly shown as a working component map rather than a fabricated sequence.
+
+## Explore
+
+Use the repository files together with the architecture/workflow visual, technology table, and project structure above to understand the implementation.
 
 ## Contact
 
 - GitHub: https://github.com/gawandeshil03-ops
 - LinkedIn: https://www.linkedin.com/in/shilgawande2004
 - Email: gawandeshil9@gmail.com
+
+---
 
 [<- Return to Product analytics Portfolio](https://github.com/gawandeshil03-ops/product-analytics-portfolio)
